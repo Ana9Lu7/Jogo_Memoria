@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		A1C7EC492655EC8B0095AEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7EC482655EC8B0095AEE7 /* AppDelegate.swift */; };
 		A1C7EC4B2655EC8B0095AEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7EC4A2655EC8B0095AEE7 /* SceneDelegate.swift */; };
-		A1C7EC4D2655EC8B0095AEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7EC4C2655EC8B0095AEE7 /* ViewController.swift */; };
-		A1C7EC502655EC8B0095AEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C7EC4E2655EC8B0095AEE7 /* Main.storyboard */; };
 		A1C7EC522655EC9C0095AEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C7EC512655EC9C0095AEE7 /* Assets.xcassets */; };
-		A1C7EC552655EC9C0095AEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C7EC532655EC9C0095AEE7 /* LaunchScreen.storyboard */; };
+		A1C7EC5E2656D4970095AEE7 /* JogoMemoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7EC5D2656D4970095AEE7 /* JogoMemoriaView.swift */; };
+		A1C7ED48265DCA2D0095AEE7 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7ED47265DCA2D0095AEE7 /* GridLayout.swift */; };
+		A1C7ED4B265DCA4E0095AEE7 /* CasinhaDasCartas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7ED4A265DCA4E0095AEE7 /* CasinhaDasCartas.swift */; };
+		A1C7ED54265DCB9F0095AEE7 /* GeneroJogoMemoriaModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7ED53265DCB9F0095AEE7 /* GeneroJogoMemoriaModelView.swift */; };
+		A1C7ED58265DCBB30095AEE7 /* JogoMemoriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C7ED57265DCBB30095AEE7 /* JogoMemoriaModel.swift */; };
+		A1DF398F265E72060037EE6D /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF398E265E72060037EE6D /* Array+Identifiable.swift */; };
+		A1DF3996265E88590037EE6D /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF3995265E88590037EE6D /* Array+Only.swift */; };
+		A1DF399B265EB8B40037EE6D /* TelaInicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF399A265EB8B40037EE6D /* TelaInicialView.swift */; };
+		A1DF399E265EB9BA0037EE6D /* TelaBoasVindasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF399D265EB9BA0037EE6D /* TelaBoasVindasView.swift */; };
+		A1DF39A4265EBEAC0037EE6D /* TelaEscolhaNivelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39A3265EBEAC0037EE6D /* TelaEscolhaNivelView.swift */; };
+		A1DF39A7265EBECA0037EE6D /* TelaSobreIdeiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39A6265EBECA0037EE6D /* TelaSobreIdeiaView.swift */; };
+		A1DF39AA265EBF220037EE6D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39A9265EBF220037EE6D /* Background.swift */; };
+		A1DF39AE265EC0620037EE6D /* JogoMemoriaNivel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39AD265EC0620037EE6D /* JogoMemoriaNivel2.swift */; };
+		A1DF39B3265EC0E60037EE6D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39B2265EC0E60037EE6D /* CardView.swift */; };
+		A1DF39B6265F02B80037EE6D /* GlossarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39B5265F02B80037EE6D /* GlossarioView.swift */; };
+		A1DF39B9265F02E50037EE6D /* NoticiasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39B8265F02E50037EE6D /* NoticiasView.swift */; };
+		A1DF39BE265F17020037EE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DF39BD265F17020037EE6D /* LaunchScreen.storyboard */; };
+		A1DF39C326609F1B0037EE6D /* JogoMemoriaNivel3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DF39C226609F0F0037EE6D /* JogoMemoriaNivel3View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1C7EC452655EC8B0095AEE7 /* Jogo_Memoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogo_Memoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C7EC482655EC8B0095AEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C7EC4A2655EC8B0095AEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1C7EC4C2655EC8B0095AEE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1C7EC4F2655EC8B0095AEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1C7EC512655EC9C0095AEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1C7EC542655EC9C0095AEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C7EC562655EC9C0095AEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C7EC5D2656D4970095AEE7 /* JogoMemoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaView.swift; sourceTree = "<group>"; };
+		A1C7ED47265DCA2D0095AEE7 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		A1C7ED4A265DCA4E0095AEE7 /* CasinhaDasCartas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinhaDasCartas.swift; sourceTree = "<group>"; };
+		A1C7ED53265DCB9F0095AEE7 /* GeneroJogoMemoriaModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneroJogoMemoriaModelView.swift; sourceTree = "<group>"; };
+		A1C7ED57265DCBB30095AEE7 /* JogoMemoriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaModel.swift; sourceTree = "<group>"; };
+		A1DF398E265E72060037EE6D /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		A1DF3995265E88590037EE6D /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		A1DF399A265EB8B40037EE6D /* TelaInicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialView.swift; sourceTree = "<group>"; };
+		A1DF399D265EB9BA0037EE6D /* TelaBoasVindasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBoasVindasView.swift; sourceTree = "<group>"; };
+		A1DF39A3265EBEAC0037EE6D /* TelaEscolhaNivelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaEscolhaNivelView.swift; sourceTree = "<group>"; };
+		A1DF39A6265EBECA0037EE6D /* TelaSobreIdeiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaSobreIdeiaView.swift; sourceTree = "<group>"; };
+		A1DF39A9265EBF220037EE6D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		A1DF39AD265EC0620037EE6D /* JogoMemoriaNivel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaNivel2.swift; sourceTree = "<group>"; };
+		A1DF39B2265EC0E60037EE6D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A1DF39B5265F02B80037EE6D /* GlossarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossarioView.swift; sourceTree = "<group>"; };
+		A1DF39B8265F02E50037EE6D /* NoticiasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasView.swift; sourceTree = "<group>"; };
+		A1DF39BD265F17020037EE6D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1DF39C226609F0F0037EE6D /* JogoMemoriaNivel3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaNivel3View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,63 @@
 		A1C7EC472655EC8B0095AEE7 /* Jogo_Memoria */ = {
 			isa = PBXGroup;
 			children = (
-				A1C7EC482655EC8B0095AEE7 /* AppDelegate.swift */,
-				A1C7EC4A2655EC8B0095AEE7 /* SceneDelegate.swift */,
-				A1C7EC4C2655EC8B0095AEE7 /* ViewController.swift */,
-				A1C7EC4E2655EC8B0095AEE7 /* Main.storyboard */,
+				A1C7ED52265DCAF20095AEE7 /* Delegate */,
+				A1C7ED4F265DCAAD0095AEE7 /* Model */,
+				A1C7ED51265DCAD00095AEE7 /* ModelView */,
+				A1C7ED50265DCAB70095AEE7 /* View */,
+				A1C7ED4A265DCA4E0095AEE7 /* CasinhaDasCartas.swift */,
 				A1C7EC512655EC9C0095AEE7 /* Assets.xcassets */,
-				A1C7EC532655EC9C0095AEE7 /* LaunchScreen.storyboard */,
 				A1C7EC562655EC9C0095AEE7 /* Info.plist */,
 			);
 			path = Jogo_Memoria;
+			sourceTree = "<group>";
+		};
+		A1C7ED4F265DCAAD0095AEE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7ED47265DCA2D0095AEE7 /* GridLayout.swift */,
+				A1DF398E265E72060037EE6D /* Array+Identifiable.swift */,
+				A1DF3995265E88590037EE6D /* Array+Only.swift */,
+				A1C7ED57265DCBB30095AEE7 /* JogoMemoriaModel.swift */,
+			);
+			name = Model;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		A1C7ED50265DCAB70095AEE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1DF39A9265EBF220037EE6D /* Background.swift */,
+				A1DF39B5265F02B80037EE6D /* GlossarioView.swift */,
+				A1C7EC5D2656D4970095AEE7 /* JogoMemoriaView.swift */,
+				A1DF39AD265EC0620037EE6D /* JogoMemoriaNivel2.swift */,
+				A1DF39C226609F0F0037EE6D /* JogoMemoriaNivel3View.swift */,
+				A1DF39B8265F02E50037EE6D /* NoticiasView.swift */,
+				A1DF399D265EB9BA0037EE6D /* TelaBoasVindasView.swift */,
+				A1DF39A3265EBEAC0037EE6D /* TelaEscolhaNivelView.swift */,
+				A1DF399A265EB8B40037EE6D /* TelaInicialView.swift */,
+				A1DF39A6265EBECA0037EE6D /* TelaSobreIdeiaView.swift */,
+				A1DF39B2265EC0E60037EE6D /* CardView.swift */,
+				A1DF39BD265F17020037EE6D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1C7ED51265DCAD00095AEE7 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7ED53265DCB9F0095AEE7 /* GeneroJogoMemoriaModelView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		A1C7ED52265DCAF20095AEE7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7EC482655EC8B0095AEE7 /* AppDelegate.swift */,
+				A1C7EC4A2655EC8B0095AEE7 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +202,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C7EC552655EC9C0095AEE7 /* LaunchScreen.storyboard in Resources */,
 				A1C7EC522655EC9C0095AEE7 /* Assets.xcassets in Resources */,
-				A1C7EC502655EC8B0095AEE7 /* Main.storyboard in Resources */,
+				A1DF39BE265F17020037EE6D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +214,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C7EC4D2655EC8B0095AEE7 /* ViewController.swift in Sources */,
+				A1DF399B265EB8B40037EE6D /* TelaInicialView.swift in Sources */,
+				A1DF39AE265EC0620037EE6D /* JogoMemoriaNivel2.swift in Sources */,
+				A1DF398F265E72060037EE6D /* Array+Identifiable.swift in Sources */,
 				A1C7EC492655EC8B0095AEE7 /* AppDelegate.swift in Sources */,
+				A1DF39A4265EBEAC0037EE6D /* TelaEscolhaNivelView.swift in Sources */,
+				A1C7ED4B265DCA4E0095AEE7 /* CasinhaDasCartas.swift in Sources */,
+				A1DF399E265EB9BA0037EE6D /* TelaBoasVindasView.swift in Sources */,
+				A1DF39C326609F1B0037EE6D /* JogoMemoriaNivel3View.swift in Sources */,
+				A1DF3996265E88590037EE6D /* Array+Only.swift in Sources */,
+				A1C7ED58265DCBB30095AEE7 /* JogoMemoriaModel.swift in Sources */,
+				A1DF39B6265F02B80037EE6D /* GlossarioView.swift in Sources */,
+				A1DF39B9265F02E50037EE6D /* NoticiasView.swift in Sources */,
+				A1C7ED48265DCA2D0095AEE7 /* GridLayout.swift in Sources */,
+				A1C7EC5E2656D4970095AEE7 /* JogoMemoriaView.swift in Sources */,
 				A1C7EC4B2655EC8B0095AEE7 /* SceneDelegate.swift in Sources */,
+				A1C7ED54265DCB9F0095AEE7 /* GeneroJogoMemoriaModelView.swift in Sources */,
+				A1DF39A7265EBECA0037EE6D /* TelaSobreIdeiaView.swift in Sources */,
+				A1DF39B3265EC0E60037EE6D /* CardView.swift in Sources */,
+				A1DF39AA265EBF220037EE6D /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A1C7EC4E2655EC8B0095AEE7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1C7EC4F2655EC8B0095AEE7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A1C7EC532655EC9C0095AEE7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1C7EC542655EC9C0095AEE7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A1C7EC572655EC9C0095AEE7 /* Debug */ = {
