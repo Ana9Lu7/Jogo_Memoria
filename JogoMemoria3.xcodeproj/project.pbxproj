@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2471DBC12666EEC300C366AE /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBBB2666EB8600C366AE /* Heebo-Black.ttf */; };
+		2471DBC32666EEC800C366AE /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBBA2666EB8600C366AE /* Heebo-ExtraBold.ttf */; };
+		2471DBC42666EEC800C366AE /* Heebo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBBD2666EB8600C366AE /* Heebo-ExtraLight.ttf */; };
+		2471DBC52666EEC800C366AE /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBB62666EB8500C366AE /* Heebo-Light.ttf */; };
+		2471DBC62666EEC800C366AE /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBB92666EB8600C366AE /* Heebo-Medium.ttf */; };
+		2471DBC72666EEC800C366AE /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBB72666EB8500C366AE /* Heebo-Regular.ttf */; };
+		2471DBC82666EEC800C366AE /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBB82666EB8500C366AE /* Heebo-Thin.ttf */; };
+		2471DBC92666EEC800C366AE /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBBC2666EB8600C366AE /* Heebo-Bold.ttf */; };
+		2471DBCA2666EEC800C366AE /* Heebo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2471DBBE2666EB8600C366AE /* Heebo-SemiBold.ttf */; };
+		A12B0E2A26642A1800106E91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E2926642A1800106E91 /* AppDelegate.swift */; };
+		A12B0E2C26642A1800106E91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E2B26642A1800106E91 /* SceneDelegate.swift */; };
+		A12B0E3026642AED00106E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12B0E2F26642AED00106E91 /* Assets.xcassets */; };
+		A12B0E3326642AED00106E91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12B0E3226642AED00106E91 /* Preview Assets.xcassets */; };
+		A12B0E3626642AED00106E91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12B0E3426642AED00106E91 /* LaunchScreen.storyboard */; };
+		A12B0E4626646A2800106E91 /* DetalhesGenero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E4526646A2800106E91 /* DetalhesGenero.swift */; };
+		A12B0E55266505C300106E91 /* JogoMemoriaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E54266505C300106E91 /* JogoMemoriaModel.swift */; };
+		A12B0E582665060600106E91 /* JogoMemoriaModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E572665060600106E91 /* JogoMemoriaModelView.swift */; };
+		A12B0E5B2665063E00106E91 /* GlossarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E5A2665063E00106E91 /* GlossarioView.swift */; };
+		A12B0E5E2665068A00106E91 /* JogoMemoriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E5D2665068A00106E91 /* JogoMemoriaView.swift */; };
+		A12B0E612665069F00106E91 /* JogoMemoriaNivel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E602665069F00106E91 /* JogoMemoriaNivel2.swift */; };
+		A12B0E64266506C600106E91 /* JogoMemoriaNivel3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E63266506C600106E91 /* JogoMemoriaNivel3View.swift */; };
+		A12B0E67266506E700106E91 /* NoticiasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E66266506E700106E91 /* NoticiasView.swift */; };
+		A12B0E6B2665071400106E91 /* TelaBoasVindasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E6A2665071400106E91 /* TelaBoasVindasView.swift */; };
+		A12B0E6F2665073600106E91 /* TelaEscolhaNivelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E6E2665073600106E91 /* TelaEscolhaNivelView.swift */; };
+		A12B0E722665075700106E91 /* TelaInicialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E712665075700106E91 /* TelaInicialView.swift */; };
+		A12B0E75266507C300106E91 /* TelaSobreIdeiaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E74266507C300106E91 /* TelaSobreIdeiaView.swift */; };
+		A12B0E782665080100106E91 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E772665080100106E91 /* CardView.swift */; };
+		A12B0E7B2665087400106E91 /* CasinhaDasCartas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E7A2665087400106E91 /* CasinhaDasCartas.swift */; };
+		A12B0E7E266508F200106E91 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E7D266508F200106E91 /* GridLayout.swift */; };
+		A12B0E832665095100106E91 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E822665095100106E91 /* Array+Identifiable.swift */; };
+		A12B0E862665096D00106E91 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E852665096D00106E91 /* Array+Only.swift */; };
+		A12B0E892665098D00106E91 /* CorFundo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0E882665098D00106E91 /* CorFundo.swift */; };
+		A12B0EAE2665FED100106E91 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0EAD2665FECE00106E91 /* Post.swift */; };
+		A12B0F202666D99600106E91 /* Generos.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12B0F1F2666D99600106E91 /* Generos.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2471DBB62666EB8500C366AE /* Heebo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Light.ttf"; sourceTree = "<group>"; };
+		2471DBB72666EB8500C366AE /* Heebo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Regular.ttf"; sourceTree = "<group>"; };
+		2471DBB82666EB8500C366AE /* Heebo-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Thin.ttf"; sourceTree = "<group>"; };
+		2471DBB92666EB8600C366AE /* Heebo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Medium.ttf"; sourceTree = "<group>"; };
+		2471DBBA2666EB8600C366AE /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2471DBBB2666EB8600C366AE /* Heebo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Black.ttf"; sourceTree = "<group>"; };
+		2471DBBC2666EB8600C366AE /* Heebo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-Bold.ttf"; sourceTree = "<group>"; };
+		2471DBBD2666EB8600C366AE /* Heebo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		2471DBBE2666EB8600C366AE /* Heebo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Heebo-SemiBold.ttf"; sourceTree = "<group>"; };
+		A12B0E2626642A1600106E91 /* JogoMemoria3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogoMemoria3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12B0E2926642A1800106E91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12B0E2B26642A1800106E91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A12B0E2F26642AED00106E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12B0E3226642AED00106E91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A12B0E3526642AED00106E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12B0E3726642AED00106E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12B0E4526646A2800106E91 /* DetalhesGenero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesGenero.swift; sourceTree = "<group>"; };
+		A12B0E54266505C300106E91 /* JogoMemoriaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaModel.swift; sourceTree = "<group>"; };
+		A12B0E572665060600106E91 /* JogoMemoriaModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaModelView.swift; sourceTree = "<group>"; };
+		A12B0E5A2665063E00106E91 /* GlossarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossarioView.swift; sourceTree = "<group>"; };
+		A12B0E5D2665068A00106E91 /* JogoMemoriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaView.swift; sourceTree = "<group>"; };
+		A12B0E602665069F00106E91 /* JogoMemoriaNivel2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaNivel2.swift; sourceTree = "<group>"; };
+		A12B0E63266506C600106E91 /* JogoMemoriaNivel3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogoMemoriaNivel3View.swift; sourceTree = "<group>"; };
+		A12B0E66266506E700106E91 /* NoticiasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticiasView.swift; sourceTree = "<group>"; };
+		A12B0E6A2665071400106E91 /* TelaBoasVindasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaBoasVindasView.swift; sourceTree = "<group>"; };
+		A12B0E6E2665073600106E91 /* TelaEscolhaNivelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaEscolhaNivelView.swift; sourceTree = "<group>"; };
+		A12B0E712665075700106E91 /* TelaInicialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaInicialView.swift; sourceTree = "<group>"; };
+		A12B0E74266507C300106E91 /* TelaSobreIdeiaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaSobreIdeiaView.swift; sourceTree = "<group>"; };
+		A12B0E772665080100106E91 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A12B0E7A2665087400106E91 /* CasinhaDasCartas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinhaDasCartas.swift; sourceTree = "<group>"; };
+		A12B0E7D266508F200106E91 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		A12B0E822665095100106E91 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		A12B0E852665096D00106E91 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		A12B0E882665098D00106E91 /* CorFundo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorFundo.swift; sourceTree = "<group>"; };
+		A12B0EAD2665FECE00106E91 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A12B0F1F2666D99600106E91 /* Generos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generos.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12B0E2326642A1600106E91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12B0E1D26642A1400106E91 = {
+			isa = PBXGroup;
+			children = (
+				A12B0E2826642A1600106E91 /* JogoMemoria3 */,
+				A12B0E2726642A1600106E91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12B0E2726642A1600106E91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E2626642A1600106E91 /* JogoMemoria3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12B0E2826642A1600106E91 /* JogoMemoria3 */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E522665055500106E91 /* Model */,
+				A12B0E512665054500106E91 /* ModelView */,
+				A12B0E4F2665051B00106E91 /* View */,
+				A12B0E502665052700106E91 /* Utilitarios */,
+				A12B0E4E2665050A00106E91 /* Delegate */,
+				A12B0E2F26642AED00106E91 /* Assets.xcassets */,
+				A12B0E3426642AED00106E91 /* LaunchScreen.storyboard */,
+				A12B0E3726642AED00106E91 /* Info.plist */,
+				A12B0E3126642AED00106E91 /* Preview Content */,
+			);
+			path = JogoMemoria3;
+			sourceTree = "<group>";
+		};
+		A12B0E3126642AED00106E91 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E3226642AED00106E91 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A12B0E4E2665050A00106E91 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E2926642A1800106E91 /* AppDelegate.swift */,
+				A12B0E2B26642A1800106E91 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A12B0E4F2665051B00106E91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E4526646A2800106E91 /* DetalhesGenero.swift */,
+				A12B0E5A2665063E00106E91 /* GlossarioView.swift */,
+				A12B0E5D2665068A00106E91 /* JogoMemoriaView.swift */,
+				A12B0E602665069F00106E91 /* JogoMemoriaNivel2.swift */,
+				A12B0E63266506C600106E91 /* JogoMemoriaNivel3View.swift */,
+				A12B0E66266506E700106E91 /* NoticiasView.swift */,
+				A12B0E6A2665071400106E91 /* TelaBoasVindasView.swift */,
+				A12B0E6E2665073600106E91 /* TelaEscolhaNivelView.swift */,
+				A12B0E712665075700106E91 /* TelaInicialView.swift */,
+				A12B0E74266507C300106E91 /* TelaSobreIdeiaView.swift */,
+				A12B0E772665080100106E91 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A12B0E502665052700106E91 /* Utilitarios */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0EA026653E8900106E91 /* Font */,
+				A12B0E812665092F00106E91 /* Extension */,
+				A12B0E7A2665087400106E91 /* CasinhaDasCartas.swift */,
+				A12B0E7D266508F200106E91 /* GridLayout.swift */,
+				A12B0EAD2665FECE00106E91 /* Post.swift */,
+				A12B0F1F2666D99600106E91 /* Generos.swift */,
+			);
+			path = Utilitarios;
+			sourceTree = "<group>";
+		};
+		A12B0E512665054500106E91 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E572665060600106E91 /* JogoMemoriaModelView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		A12B0E522665055500106E91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E54266505C300106E91 /* JogoMemoriaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A12B0E812665092F00106E91 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A12B0E882665098D00106E91 /* CorFundo.swift */,
+				A12B0E822665095100106E91 /* Array+Identifiable.swift */,
+				A12B0E852665096D00106E91 /* Array+Only.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A12B0EA026653E8900106E91 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2471DBBB2666EB8600C366AE /* Heebo-Black.ttf */,
+				2471DBBC2666EB8600C366AE /* Heebo-Bold.ttf */,
+				2471DBBA2666EB8600C366AE /* Heebo-ExtraBold.ttf */,
+				2471DBBD2666EB8600C366AE /* Heebo-ExtraLight.ttf */,
+				2471DBB62666EB8500C366AE /* Heebo-Light.ttf */,
+				2471DBB92666EB8600C366AE /* Heebo-Medium.ttf */,
+				2471DBB72666EB8500C366AE /* Heebo-Regular.ttf */,
+				2471DBBE2666EB8600C366AE /* Heebo-SemiBold.ttf */,
+				2471DBB82666EB8500C366AE /* Heebo-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12B0E2526642A1600106E91 /* JogoMemoria3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12B0E3A26642AED00106E91 /* Build configuration list for PBXNativeTarget "JogoMemoria3" */;
+			buildPhases = (
+				A12B0E2226642A1600106E91 /* Sources */,
+				A12B0E2326642A1600106E91 /* Frameworks */,
+				A12B0E2426642A1600106E91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoMemoria3;
+			productName = JogoMemoria3;
+			productReference = A12B0E2626642A1600106E91 /* JogoMemoria3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12B0E1E26642A1500106E91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A12B0E2526642A1600106E91 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = A12B0E2126642A1500106E91 /* Build configuration list for PBXProject "JogoMemoria3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12B0E1D26642A1400106E91;
+			productRefGroup = A12B0E2726642A1600106E91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12B0E2526642A1600106E91 /* JogoMemoria3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12B0E2426642A1600106E91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2471DBC42666EEC800C366AE /* Heebo-ExtraLight.ttf in Resources */,
+				2471DBCA2666EEC800C366AE /* Heebo-SemiBold.ttf in Resources */,
+				2471DBC12666EEC300C366AE /* Heebo-Black.ttf in Resources */,
+				2471DBC32666EEC800C366AE /* Heebo-ExtraBold.ttf in Resources */,
+				A12B0E3626642AED00106E91 /* LaunchScreen.storyboard in Resources */,
+				2471DBC72666EEC800C366AE /* Heebo-Regular.ttf in Resources */,
+				2471DBC52666EEC800C366AE /* Heebo-Light.ttf in Resources */,
+				2471DBC62666EEC800C366AE /* Heebo-Medium.ttf in Resources */,
+				A12B0E3326642AED00106E91 /* Preview Assets.xcassets in Resources */,
+				A12B0E3026642AED00106E91 /* Assets.xcassets in Resources */,
+				2471DBC92666EEC800C366AE /* Heebo-Bold.ttf in Resources */,
+				2471DBC82666EEC800C366AE /* Heebo-Thin.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12B0E2226642A1600106E91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12B0E7E266508F200106E91 /* GridLayout.swift in Sources */,
+				A12B0E2A26642A1800106E91 /* AppDelegate.swift in Sources */,
+				A12B0E612665069F00106E91 /* JogoMemoriaNivel2.swift in Sources */,
+				A12B0E2C26642A1800106E91 /* SceneDelegate.swift in Sources */,
+				A12B0E4626646A2800106E91 /* DetalhesGenero.swift in Sources */,
+				A12B0E832665095100106E91 /* Array+Identifiable.swift in Sources */,
+				A12B0E64266506C600106E91 /* JogoMemoriaNivel3View.swift in Sources */,
+				A12B0E6F2665073600106E91 /* TelaEscolhaNivelView.swift in Sources */,
+				A12B0E7B2665087400106E91 /* CasinhaDasCartas.swift in Sources */,
+				A12B0E722665075700106E91 /* TelaInicialView.swift in Sources */,
+				A12B0EAE2665FED100106E91 /* Post.swift in Sources */,
+				A12B0E6B2665071400106E91 /* TelaBoasVindasView.swift in Sources */,
+				A12B0E55266505C300106E91 /* JogoMemoriaModel.swift in Sources */,
+				A12B0F202666D99600106E91 /* Generos.swift in Sources */,
+				A12B0E862665096D00106E91 /* Array+Only.swift in Sources */,
+				A12B0E5B2665063E00106E91 /* GlossarioView.swift in Sources */,
+				A12B0E892665098D00106E91 /* CorFundo.swift in Sources */,
+				A12B0E75266507C300106E91 /* TelaSobreIdeiaView.swift in Sources */,
+				A12B0E5E2665068A00106E91 /* JogoMemoriaView.swift in Sources */,
+				A12B0E67266506E700106E91 /* NoticiasView.swift in Sources */,
+				A12B0E782665080100106E91 /* CardView.swift in Sources */,
+				A12B0E582665060600106E91 /* JogoMemoriaModelView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A12B0E3426642AED00106E91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12B0E3526642AED00106E91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12B0E3826642AED00106E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A12B0E3926642AED00106E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12B0E3B26642AED00106E91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JogoMemoria3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JogoMemoria3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnaLuiza.JogoMemoria3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A12B0E3C26642AED00106E91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JogoMemoria3/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JogoMemoria3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AnaLuiza.JogoMemoria3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12B0E2126642A1500106E91 /* Build configuration list for PBXProject "JogoMemoria3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12B0E3826642AED00106E91 /* Debug */,
+				A12B0E3926642AED00106E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12B0E3A26642AED00106E91 /* Build configuration list for PBXNativeTarget "JogoMemoria3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12B0E3B26642AED00106E91 /* Debug */,
+				A12B0E3C26642AED00106E91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12B0E1E26642A1500106E91 /* Project object */;
+}
